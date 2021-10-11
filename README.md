@@ -32,3 +32,16 @@
     * Se almacena la nota obtenida por cada alumno en cada curso teniendo en
     cuenta que un mismo alumno o alumna puede realizar varios cursos y en
     cada cual obtendrá una nota.
+* **Reto 3. Geografía**:
+    Crear un diseño entidad relación que permita almacenar datos geográficos
+    referidos a España:
+    * Se almacenará el nombre y población de cada localidad, junto con su
+    nombre y los datos de la provincia a la que pertenece la localidad, su
+    nombre, población y superficie.
+    * Necesitamos también conocer los datos de cada comunidad autónoma,
+    nombre, población y superficie y por supuesto las localidades y provincias
+    de esta.
+    * Para identificar a la provincia se usarán los dos primeros dígitos del código
+    postal. Es decir 34 será el código de Palencia y 28 el de Madrid
+    * Necesitamos saber qué localidad es la capital de cada provincia y cuáles lo
+    son de cada comunidad.
