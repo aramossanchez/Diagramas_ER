@@ -79,3 +79,26 @@
     estantería se identifica por tres letras.
     * Necesitaremos saber la cantidad de piezas que tenemos en cada almacén y
     saber en qué estanterías están las piezas buscadas.
+* **Reto 6. Biblioteca v2**:
+    Se trata de crear una base de datos sobre el funcionamiento de una biblioteca
+    * Almacenaremos el DNI, nombre, apellidos, código de socio, dirección y
+    teléfonos (pueden ser varios, pero al menos uno)
+    * La biblioteca presta libros, CDs y películas. De todos ellos se almacena un
+    código de artículo distinto para cada pieza en la biblioteca. Es decir, si
+    tenemos tres libros del Quijote, los tres tendrán un número distinto de
+    artículo.
+    * Además, almacenamos el nombre de cada artículo, el año en el que se hizo
+    la obra (sea del tipo que sea) un resumen de la obra y los datos de los
+    autores del mismo. Se considera autor de la película al director, de la
+    música al intérprete y del libro al escritor. Pero de todos ellos se guarda la
+    misma información: nombre y país.
+    * De los libros además se guarda el número de páginas, de los CDs el
+    número de canciones y de la película la duración
+    * Anotamos si un artículo concreto está deteriorado y un comentario sobre el
+    posible deterioro
+    * Cuando se presta un artículo, se anota fecha en la que se presta y la fecha
+    tope para devolverle. Cuando el socio le devuelve, se anota la fecha de
+    devolución.
+    * No hay tope sobre el número de artículos que puede prestarse a un socio e
+    incluso el socio podría llevarse varias veces el mismo artículo en distintos
+    préstamos.
