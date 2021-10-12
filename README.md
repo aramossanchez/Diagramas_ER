@@ -185,3 +185,56 @@
     * Todos los trabajadores han participado en algún proyecto
     * En la base de datos, la profesión “administrador de diseño” no la ha
     desempeñado todavía ningún trabajador o trabajadora.
+* **Reto 13. Empresa de comidas**:
+    Crear un diseño entidad/relación para una empresa de comidas. En la base de
+    datos tienen que figurar:
+    * El nombre y apellidos de cada empleado, su dni y su número de SS además
+    del teléfono fijo y el móvil
+    * Algunos empleados/as son cocineros/as. De los cocineros y cocineras
+    anotamos (además de los datos propios de cada empleado) sus años de
+    servicio en la empresa.
+    * Hay empleados/as que son pinches. De los y las pinches anotamos su fecha
+    de nacimiento.
+    * La mayoría de los trabajadores no son ni pinches ni cocineros/as
+    * En la base de datos figura cada plato (su nombre como “pollo a la
+    carloteña”, “bacalo al pil-pil”,...), el precio del plato junto con los
+    ingredientes que lleva. Anotamos también si cada plato es un entrante, un
+    primer plato, segundo plato o postre
+    * De los ingredientes necesitamos la cantidad que necesitamos de él en cada
+    plato y en qué almacén y estantería de este la tenemos.
+    * Cada almacén se tiene un nombre (despensa principal, cámara frigorífica A,
+    cámara frigorífica B...), un número de almacén y una descripción del mismo.
+    * Cada estante en el almacén se identifica con dos letras y un tamaño en
+    centímetros. Dos almacenes distintos pueden tener dos estantes con las
+    mismas letras.
+    * Necesitamos también saber qué cocineros son capaces de preparar cada
+    plato.
+    * Cada pinche está a cargo de un cocinero o cocinera.
+    * La cantidad de ingredientes en cada estantería de un almacén se actualiza
+    en la base de datos al instante. SI cogemos dos ajos de un estante, figurará
+    al instante que tenemos dos ajos menos en ese estante. Es necesario por lo
+    tanto saber los ingredientes (cuáles y en qué número) que tenemos en cada
+    estante.
+* **Reto 14. Red social**:
+    Crear un diseño entidad/relación que permita modelar un sistema que sirva
+    para simular el funcionamiento de una red social, teniendo en cuenta lo
+    siguiente:
+    * Los usuarios de la red social se identifican con un identificador y una
+    contraseña. Además, se almacena de ellos:
+        * Su nombre, apellidos, dirección, teléfono (puede tener varios teléfonos) e e-
+        mail (el e-mail no tiene que poder coincidir con el de otro usuario) y una
+        foto
+        * Si los usuarios son celebridades, de ellos no aparecerá ni el email ni la
+        dirección ni el teléfono.
+    * Los usuarios pueden tener una serie de contactos, que en realidad son
+    otros usuarios. De cada contacto se puede almacenar un comentario que es
+    personal y que sirve para describir al contacto.
+    * Los usuarios pueden organizar sus contactos en grupos de los cuales se
+    almacena un nombre y deberemos saber los contactos que contiene. El
+    mismo contacto puede formar parte de varios grupos.
+    * Además, cada usuario puede tener una lista de usuarios bloqueados a fin
+    de que no puedan contactar con él
+    * Los usuarios pueden publicar en la red comentarios, los cuales se puede
+    hacer que los vea todo el mundo, que los vea uno o varios de los grupos de
+    contactos del usuario o bien una lista concreta de usuarios. Los
+    comentarios pueden incluir un texto y una imagen.
