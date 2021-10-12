@@ -148,3 +148,18 @@
     datos que almacena información sobre los partidos de una liga de futbol una
     temporada. Hay que tener en cuenta que en dicha liga los jugadores no pueden
     cambiar de equipo.
+* **Reto 11. Accidentes geográficos**:
+    Realizar un esquema entidad/relación que sirva para almacenar información
+    geográfica. Para ello hay que tener en cuenta
+    * Se almacenan los siguientes accidentes geográficos: ríos, lagos y montañas
+    * De cada accidente se almacenan su posición horizontal y vertical según el
+    eje de la tierra, además de su nombre
+    * De los ríos se almacena su longitud, de las montañas su altura y de los lagos
+    su extensión
+    * Se almacena también información sobre cada país, su nombre, su extensión
+    y su población
+    * Se desea almacenar información que permite saber en qué país está cada
+    accidente geográfico, teniendo en cuenta que cada accidente puede estar
+    en más de un país.
+    * Se almacena también los nombres de cada localidad del planeta. Y se
+    almacena por qué localidades pasa cada río.
