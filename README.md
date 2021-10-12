@@ -63,3 +63,19 @@
     habido momentos en los que ha sido independiente y otros en los que no
     (por ejemplo, Croacia). Bastará con almacenar los periodos en los que ha
     sido independiente.
+* **Reto 5. Almacén v1**:
+    Se trata de crear una base de datos sobre un almacén de piezas de modo que:
+    * Cada pieza se identifica con dos letras (tipo, por ejemplo, TU=tuerca) y un
+    número (modelo, por ejemplo 6)
+    * Almacenamos un atributo que permite saber la descripción de cada tipo de
+    pieza. Es decir, el tipo TU tendrá la descripción tuerca.
+    * Necesitamos conocer el precio al que vendemos cada pieza.
+    * Además, hay piezas que se componen de otras piezas, por ejemplo, una
+    puerta se compone de una hoja de madera, una bisagra y un picaporte.
+    Incluso una pieza puede estar compuesta de otras piezas que a su vez
+    pueden estar compuestas por otras y así sucesivamente
+    * Tenemos una serie de almacenes de los que guardamos su número,
+    descripción, dirección y el nombre de cada estantería de almacén. Cada
+    estantería se identifica por tres letras.
+    * Necesitaremos saber la cantidad de piezas que tenemos en cada almacén y
+    saber en qué estanterías están las piezas buscadas.
