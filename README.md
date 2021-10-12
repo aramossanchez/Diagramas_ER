@@ -45,3 +45,21 @@
     postal. Es decir 34 será el código de Palencia y 28 el de Madrid
     * Necesitamos saber qué localidad es la capital de cada provincia y cuáles lo
     son de cada comunidad.
+* **Reto 4. Guerras**:
+    Diseñar un modelo entidad/relación que almacene los datos de todas las
+    guerras de la historia de modo que:
+    * Se almacene el año en el que empezó la guerra y el año en que terminó, así
+    como su nombre y el de los países contendientes, pudiendo indicar además
+    quienes fueron los ganadores.
+    * Hay que tener en cuenta que los países se pueden unir a la guerra a uno u
+    otro bando (suponemos que solo hay dos bandos) después de comenzada
+    la guerra (como EEUU en la 2a guerra mundial) y que incluso pueden
+    abandonar la guerra antes de que esta finalice (como Rusia en la 1a guerra
+    mundial)
+    * Los países que se almacenan en la base de datos pueden no ser países
+    actualmente (como Prusia, Aragón, Asiria, etc.) por lo que se ha
+    contemplado que en la base de datos se almacenen los años en los que el
+    país ha sido independiente, teniendo en cuenta que hay países que ha
+    habido momentos en los que ha sido independiente y otros en los que no
+    (por ejemplo, Croacia). Bastará con almacenar los periodos en los que ha
+    sido independiente.
