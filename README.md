@@ -143,3 +143,8 @@
 * **Reto 9. Recetas de cocina**:
     Crear el esquema entidad/relación que permita gestionar los datos sobre
     preparación de rectas de cocina.
+* **Reto 10. Futbol**:
+    Crear el esquema entidad/relación que permita crear el diseño de una base de
+    datos que almacena información sobre los partidos de una liga de futbol una
+    temporada. Hay que tener en cuenta que en dicha liga los jugadores no pueden
+    cambiar de equipo.
