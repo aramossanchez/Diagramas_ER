@@ -140,3 +140,6 @@
     * Se guarda información sobre los aviones, código y número de plazas. Los
     vuelos sólo les puede realizar un avión determinado, pero el mismo avión
     puede realizar (como es lógico) otros vuelos.
+* **Reto 9. Recetas de cocina**:
+    Crear el esquema entidad/relación que permita gestionar los datos sobre
+    preparación de rectas de cocina.
