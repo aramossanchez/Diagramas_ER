@@ -163,3 +163,25 @@
     en más de un país.
     * Se almacena también los nombres de cada localidad del planeta. Y se
     almacena por qué localidades pasa cada río.
+* **Reto 12. Empresa de software**:
+    Realizar un esquema entidad/relación que permita modelar el sistema de
+    información de una empresa de software atendiendo las siguientes premisas
+    * La empresa crea proyectos para otras empresas. De dichas empresas se
+    almacena el CIF, nombre, dirección y teléfono, así como un código interno
+    de empresa.
+    * Los proyectos se inician en una determinada fecha y finalizan en otra.
+    Además, al planificarle se almacena la fecha prevista de finalización (que
+    puede no coincidir con la finalización real)
+    * Los proyectos los realizan varios trabajadores, cada uno de ellos
+    desempeña una determinada profesión en el proyecto (analista, jefe de
+    proyecto, programador,...), dicha profesión tiene un código de profesión. En
+    el mismo proyecto puede haber varios analistas, programadores,...
+    * Todos los trabajadores tienen un código de trabajador, un dni, un nombre y
+    apellidos. Su profesión puede cambiar según el proyecto: en uno puede ser
+    jefe y en otro un programador
+    * Se anota las horas que ha trabajado cada trabajador en cada proyecto.
+    * Puede haber varios proyectos que comiencen el mismo día.
+    * A todas las empresas les hemos realizado al menos un proyecto
+    * Todos los trabajadores han participado en algún proyecto
+    * En la base de datos, la profesión “administrador de diseño” no la ha
+    desempeñado todavía ningún trabajador o trabajadora.
