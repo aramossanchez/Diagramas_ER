@@ -102,3 +102,20 @@
     * No hay tope sobre el número de artículos que puede prestarse a un socio e
     incluso el socio podría llevarse varias veces el mismo artículo en distintos
     préstamos.
+* **Reto 7. Organigrama**:
+    Crear el esquema entidad/relación que represente el organigrama de una
+    empresa, de modo que:
+    * Aparezcan los datos de todos los empleados: dni, no de seguridad social,
+    código de trabajador, nombre, apellidos, dirección, teléfono y departamento
+    en el que trabajan indicado por su código y nombre.
+    * También hay que tener en cuenta que cada trabajador puede tener un
+    responsable (que en realidad es otro trabajador)
+    * Los departamentos poseen un único coordinador del mismo
+    * Necesitamos almacenar la categoría profesional de los trabajadores y
+    trabajadoras, teniendo en cuenta que la categoría a veces cambia al
+    cambiar el contrato, de los contratos se almacena la fecha de inicio del
+    mismo y la fecha final (un contrato en vigor tendrá como fecha final el valor
+    nulo).
+    * También controlaremos las nóminas que ha recibido el trabajador de las
+    que sabemos la fecha, el salario y a qué trabajador van dirigidas y la
+    categoría del mismo.
