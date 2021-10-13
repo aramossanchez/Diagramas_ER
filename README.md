@@ -1,5 +1,5 @@
-# Diagramas Entidad Relación
-## Creación de diagramas Entidad Relación dados los siguientes enunciados:
+# Diagramas Entidad Relación y Modelos Entidad Relación
+## Creación de diagramas Entidad Relación y Modelos Entidad Relación dados los siguientes enunciados:
 * **Reto 1. Biblioteca v1**: 
     Crear un diseño entidad relación (estando prohibido utilizar símbolos del
     modelo extendido) que permita gestionar los datos de una biblioteca de modo
@@ -238,3 +238,18 @@
     hacer que los vea todo el mundo, que los vea uno o varios de los grupos de
     contactos del usuario o bien una lista concreta de usuarios. Los
     comentarios pueden incluir un texto y una imagen.
+* **Reto 15. Menú diario**:
+    Crear un esquema Entidad/relación que represente un modelo para llevar los
+    datos que maneja un restaurante de menús diarios. Teniendo en cuenta que:
+    * Sólo interesa llevar los datos de los menús diarios a la hora de la comida,
+    nada más del restaurante
+    * Cada menú se compone de una serie de posibles platos. cada plato se
+    puede repetir en diferentes días. Los platos pueden ser primer plato,
+    segundo plato o postres.
+    * De cada plato se almacena el nombre (por ejemplo, Arroz negro con setas)
+    y una pequeña descripción.
+    * De los menús almacenamos la fecha en la que se ofrece el menú, el número
+    de personas que han tomado menú ese día. Además, almacenamos la
+    cantidad de cada plato que se ha tomado ese día.
+    * Se almacena también la temperatura que hacía el día del menú para así
+    poder analizar las temperaturas y los platos exitosos
