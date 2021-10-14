@@ -30,6 +30,16 @@ constraint FK_Provincia foreign key (id_provincia) references Provincias (id),
 primary key (id)
 );
 
+alter table Comunidades_Autonomas
+CHANGE COLUMN capital id_capital int,
+ADD constraint FK_Capital_CA foreign key (id_capital) references Provincias (id);
+
+alter table Provincias
+CHANGE COLUMN capital id_capital int,
+ADD constraint FK_Capital_Provincia foreign key (id_capital) references Localidades (id);
+
+
+
 
 
 
